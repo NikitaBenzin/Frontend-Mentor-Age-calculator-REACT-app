@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    gap: 10px;
+}
+
+header p {
+    color: var(--gray-200);
+    text-transform: uppercase;
+}
+
+header section {
+    max-width: min-content;
+}
+
+header section span {
+    font-weight: 400;
+    font-style: italic;
+    color: var(--red-100);
+}
+
+
+@media (min-width: 1440px) {
+    header {
+        width: 90%;
+        gap: 24px;
+    }
+
+    header input {
+        max-width: 150px;
+    }
+}

@@ -1,0 +1,27 @@
+#root {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white-200);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: var(--white-100);
+    padding: 2rem 0;
+    border-radius: 1.6rem 1.6rem 6rem 1.6rem;
+}
+
+@media (min-width: 1440px) {
+    .app {
+        width: 50%;
+    }
+}
